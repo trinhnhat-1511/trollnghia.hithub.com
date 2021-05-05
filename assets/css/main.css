@@ -1,0 +1,33 @@
+.nghia{
+    position: relative;
+    text-align: center;
+    margin: 400px 0px;
+    border: solid;
+    padding: 80px 60px;
+    border-radius: 40px;
+    background-color: rgba(0, 128, 0, 0.424);
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+body{
+    background-image: url(https://scontent-hkt1-2.xx.fbcdn.net/v/t1.6435-9/167568225_2938022543136023_799348805637858602_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=e3f864&_nc_ohc=PamgPZoaSD0AX-X4-rz&_nc_ht=scontent-hkt1-2.xx&oh=35a609d4adff725e383419d4fa97393e&oe=60B6ADE7);
+}
+
+.hiden{
+    position: absolute;
+    display: none;
+}
+
+.nghia:hover{
+    background-color: green;
+    color: green;
+}
+
+.nghia:hover .hiden{
+    display: block;
+    color: white !important;
+    padding-left: auto;
+    padding-right: auto;
+}
